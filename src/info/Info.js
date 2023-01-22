@@ -1,9 +1,9 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import self from "../img/self.png";
+import mock1 from "../img/mock1.png";
+import mock2 from "../img/mock2.png";
+import mock3 from "../img/mock3.png";
+import mock4 from "../img/mock4.png";
+import mock5 from "../img/mock5.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -15,7 +15,6 @@ These colors will be used to style your name on the homepage, the background of 
 the site.
  */
 
-
 /*
 So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
 that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
@@ -23,118 +22,133 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
-    baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-        {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
-            emoji: '🌎',
-            text: 'based in the US'
-        },
-        {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
-        },
-        {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
-        }
+  firstName: "Artem",
+  lastName: "Novitckii",
+  initials: "ART", // the example uses first and last, but feel free to use three or more if you like.
+  position: "a Software Engineer",
+  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+  baseColor: colors[0],
+  miniBio: [
+    // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    {
+      emoji: "🍄",
+      text: "mushrooms enthusiast",
+    },
+    {
+      emoji: "🇳🇿",
+      text: "based in New Zealand",
+    },
+    {
+      emoji: "💼",
+      text: `Software Engineer at EROAD`,
+      link: "https://www.eroad.co.nz/nz/",
+    },
+    {
+      emoji: "💌",
+      text: "artemnovitckii@gmail.com",
+    },
+  ],
+  socials: [
+    {
+      link: "https://github.com/artemnovitckii",
+      icon: "fa fa-github",
+      label: "github",
+    },
+    {
+      link: "https://linkedin.com/artem-novitckii",
+      icon: "fa fa-linkedin",
+      label: "linkedin",
+    },
+    {
+      link: "https://dribbble.com/novitckii",
+      icon: "fa fa-dribbble",
+      label: "dribbble",
+    },
+    // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+    // Just change the links so that they lead to your social profiles.
+  ],
+  bio: "Hi 👋 I'm Artem. My education background is in Computer Science and Information Systems at the University of Auckland. I'm originally from Russia but been living in New Zealand since I was 15. My natural tendency to understand and connect with people has allowed me to truly emerge myself into a problem and find solutions that are centered around users. I love working on projects that are able to enhance the quality of life and make people happy.",
+  skills: {
+    proficientWith: [
+      "javascript",
+      "react",
+      "react-native",
+      "kotlin",
+      "typescript",
+      "html/css/tailwind",
+      "python",
+      "figma",
     ],
-    socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
-    ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
-    skills:
-        {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
-        }
-    ,
-    hobbies: [
-        {
-            label: 'reading',
-            emoji: '📖'
-        },
-        {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
-        }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
-    ],
-    portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
-        },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
-    ]
-}
+    exposedTo: ["nodejs", "java"],
+  },
+  hobbies: [
+    {
+      label: "self-improvement",
+      emoji: "📖",
+    },
+    {
+      label: "bodybuilding",
+      emoji: "🏋️‍♀️",
+    },
+    {
+      label: "outdoors",
+      emoji: "🌲",
+    },
+    {
+      label: "travelling",
+      emoji: "🚀",
+    },
+    {
+      label: "music",
+      emoji: "🎧",
+    },
+    // Same as above, change the emojis to match / relate to your hobbies or interests.
+    // You can also remove the emojis if you'd like, I just think they look cute :P
+  ],
+  portfolio: [
+    // This is where your portfolio projects will be detailed
+    {
+      title: "Coalition Against Piracy (CAP)",
+      subtitle:
+        "Web Aplplication to manage pirated content in South East Asia. Deisgned and built front end.",
+      live: "http://www.casbaa.com/about-us/cap/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: "mailto: artemnovitckii@gmail.com", // this should be a link to the **repository** of the project, where the code is hosted.
+      image: mock1,
+      button1Text: "about CAP",
+      button2Text: "On Request",
+      tags: ["Front-end", "UI/UX", "Typescript/Tailwind"],
+    },
+    {
+      title: "Foodzilla",
+      subtitle: "Marketing & Feature Desings",
+      live: "https://foodzilla.io/",
+      source: "On Request",
+      tags: ["UI/UX", "Figma"],
+      button1Text: "Foodzilla",
+      button2Text: "On Request",
+      image: mock3,
+    },
+    {
+      title: "Shwoop",
+      live: "https://shwoop.co.nz/",
+      source: "mailto: artemnovitckii@gmail.com",
+      image: mock2,
+      button1Text: "Shwoop",
+      button2Text: "On Request",
+      subtitle: "UI/UX of the mobile app.",
+      tags: ["UI/UX", "Figma"],
+    },
+    {
+      title: "Random Facts App",
+      subtitle:
+        "Using Facts API built and designed an app that displays random facts.",
+      button1Text: "not published 😤",
+      button2Text: "Source",
+      live: "too $$ to publish",
+      tags: ["React Native", "Mobile"],
+      source: "https://github.com/artemnovitckii",
+      image: mock4,
+    },
+  ],
+};
