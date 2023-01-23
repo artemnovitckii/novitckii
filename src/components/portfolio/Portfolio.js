@@ -4,6 +4,8 @@ import { Box, Grid } from "@mui/material";
 import { info } from "../../info/Info";
 
 export default function Portfolio() {
+  let detectedDarkMode = eval(localStorage.getItem("darkMode"));
+
   return (
     <Box>
       <Grid container display={"flex"} justifyContent={"center"}>
@@ -18,6 +20,7 @@ export default function Portfolio() {
               button1Text={project?.button1Text}
               button2Text={project?.button2Text}
               tags={project?.tags}
+              darkMode={detectedDarkMode}
             />
           </Grid>
         ))}

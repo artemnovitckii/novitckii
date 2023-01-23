@@ -20,7 +20,14 @@ function EmojiBullet(props) {
         {emoji}
       </Box>
       {link ? (
-        <a href={link} target="_blank">
+        <a
+          href={
+            link == "resume"
+              ? require("../../img/artem-novitckii-cv.pdf")
+              : link
+          }
+          target="_blank"
+        >
           {text}
         </a>
       ) : (

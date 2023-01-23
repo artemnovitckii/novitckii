@@ -32,8 +32,8 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: "🍄",
-      text: "mushrooms enthusiast",
+      emoji: "☕️",
+      text: "coffee enthusiast",
     },
     {
       emoji: "🇳🇿",
@@ -47,6 +47,11 @@ export const info = {
     {
       emoji: "💌",
       text: "artemnovitckii@gmail.com",
+    },
+    {
+      emoji: "🗂️",
+      text: "download my resume",
+      link: "resume",
     },
   ],
   socials: [
@@ -68,7 +73,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hi 👋 I'm Artem. My education background is in Computer Science and Information Systems at the University of Auckland. I'm originally from Russia but been living in New Zealand since I was 15. My natural tendency to understand and connect with people has allowed me to truly emerge myself into a problem and find solutions that are centered around users. I love working on projects that are able to enhance the quality of life and make people happy.",
+  bio: "Hi 👋 I'm Artem. My education background is in Computer Science and Information Systems at the University of Auckland.  An imaginative leader and developer, I am passionate for sense of discovery and understanding perspective of others. I enjoy facing unique problems that force me out of the box. I believe that being open-minded and disciplined with action system will achieve the greatest results.",
   skills: {
     proficientWith: [
       "javascript",
@@ -88,7 +93,7 @@ export const info = {
       emoji: "📖",
     },
     {
-      label: "bodybuilding",
+      label: "fitness",
       emoji: "🏋️‍♀️",
     },
     {

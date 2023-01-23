@@ -12,6 +12,7 @@ function PortfolioBlock(props) {
     button1Text,
     button2Text,
     tags,
+    darkMode,
   } = props;
   return (
     <Box
@@ -37,7 +38,12 @@ function PortfolioBlock(props) {
       >
         {tags &&
           tags.map((tag, index) => (
-            <Chip sx={{ marginRight: "0.5rem" }} label={tag} key={index} />
+            <Chip
+              sx={{ marginRight: "0.5rem" }}
+              label={tag}
+              key={index}
+              color={darkMode ? "secondary" : "default"}
+            />
           ))}
       </Box>
 
@@ -51,17 +57,25 @@ function PortfolioBlock(props) {
         py={"2rem"}
       >
         {button1Text && (
-          <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+          <Box
+            p={1}
+            border={darkMode ? "2px solid white" : "2px solid black"}
+            borderRadius={"25px"}
+          >
             <IconLink
               link={live}
               title={button1Text ? button1Text : "Live Demo"}
               icon={"fa fa-safari"}
-            />{" "}
+            />
           </Box>
         )}
 
         {button2Text && (
-          <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+          <Box
+            p={1}
+            border={darkMode ? "2px solid white" : "2px solid black"}
+            borderRadius={"25px"}
+          >
             <IconLink link={source} title={button2Text} icon={"fa fa-code"} />
           </Box>
         )}
