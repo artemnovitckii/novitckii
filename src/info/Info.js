@@ -61,7 +61,7 @@ export const info = {
       label: "github",
     },
     {
-      link: "https://linkedin.com/artem-novitckii",
+      link: "https://linkedin.com/in/artem-novitckii",
       icon: "fa fa-linkedin",
       label: "linkedin",
     },
