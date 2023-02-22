@@ -73,6 +73,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
+  bio: "Hi 👋 I'm Artem. Bold and visionary UI/UX designer with a background in software engineering. Blends technical skills with a passion for art and psychology to create impactful and emotionally engaging user experiences. Committed to solving real-world problems with design and making a meaningful difference in the digital world. Bringing a unique perspective to each project and a drive to stand out and inspire users everywhere.",
   skills: {
     proficientWith: [
       "javascript",
