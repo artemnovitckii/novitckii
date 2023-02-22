@@ -73,7 +73,6 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hi 👋 I'm Artem. My education background is in Computer Science and Information Systems at the University of Auckland.  An imaginative leader and developer, I am passionate for sense of discovery and understanding perspective of others. I enjoy facing unique problems that force me out of the box. I believe that being open-minded and disciplined with action system will achieve the greatest results.",
   skills: {
     proficientWith: [
       "javascript",
@@ -114,46 +113,37 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Coalition Against Piracy (CAP)",
+      title: "Coalition Against Piracy",
       subtitle:
-        "Web Aplplication to manage pirated content in South East Asia. Deisgned and built front end.",
+        "I have designed and built the front-end of a web application focused on managing piracy in South East Asia. This project showcases my ability to develop innovative solutions that address complex problems. The application features a streamlined, efficient system for blocking pirated content and generating detailed reports of any infringement for submission to government authorities. My work on this project highlights my dedication to delivering measurable results and creating value for clients through the power of technology.",
       live: "http://www.casbaa.com/about-us/cap/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "mailto: artemnovitckii@gmail.com", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
       button1Text: "about CAP",
-      button2Text: "On Request",
+      button2Text: "",
       tags: ["Front-end", "UI/UX", "Typescript/Tailwind"],
     },
     {
       title: "Foodzilla",
-      subtitle: "Marketing & Feature Desings",
+      subtitle:
+        "As a UI/UX designer, I played a key role in developing an innovative meal planning web application. I designed and implemented a range of features, including meal recipe generation, weekly meal plans, and auto-generate meals, all with a focus on user efficiency and satisfaction. In addition, I utilized my marketing design skills to create branding and feature displays aimed at increasing client engagement and attracting new customers. My contribution to this project showcases my ability to deliver comprehensive solutions that meet both business and customer needs.",
       live: "https://foodzilla.io/",
       source: "On Request",
       tags: ["UI/UX", "Figma"],
       button1Text: "Foodzilla",
-      button2Text: "On Request",
+      button2Text: "",
       image: mock3,
     },
     {
       title: "Shwoop",
+      subtitle:
+        "As the lead UI/UX designer for a mobile app, I was responsible for a range of critical tasks, including user research, interface design, and user experience optimization. Through my efforts, the app was successfully launched and achieved a #1 ranking in the app store. My focus on creating a seamless and intuitive user experience, combined with my attention to detail and commitment to quality, contributed to the app's success. This project demonstrates my ability to lead and manage complex design efforts while delivering products that meet and exceed expectations.",
       live: "https://shwoop.co.nz/",
       source: "mailto: artemnovitckii@gmail.com",
       image: mock2,
       button1Text: "Shwoop",
-      button2Text: "On Request",
-      subtitle: "UI/UX of the mobile app.",
+      button2Text: "",
       tags: ["UI/UX", "Figma"],
-    },
-    {
-      title: "Random Facts App",
-      subtitle:
-        "Using Facts API built and designed an app that displays random facts.",
-      button1Text: "not published 😤",
-      button2Text: "Source",
-      live: "too $$ to publish",
-      tags: ["React Native", "Mobile"],
-      source: "https://github.com/artemnovitckii",
-      image: mock4,
     },
   ],
 };

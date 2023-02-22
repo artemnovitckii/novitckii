@@ -27,8 +27,19 @@ function PortfolioBlock(props) {
         src={image}
         alt={"mockup"}
       />
-      <h1 style={{ fontSize: "2rem", textAlign: "center" }}>{title}</h1>
-      <p style={{ fontSize: "1rem", marginTop: "0.5rem" }}>{subtitle}</p>
+      <div style={{ padding: "1rem", alignItems: "center" }}>
+        <h1 style={{ fontSize: "2rem", textAlign: "center" }}>{title}</h1>
+        <p
+          style={{
+            fontSize: "1rem",
+            marginTop: "0.5rem",
+            textAlign: "justify",
+          }}
+        >
+          {subtitle}
+        </p>
+      </div>
+
       <Box
         display={"flex"}
         flexDirection={"row"}
