@@ -81,11 +81,11 @@ export const info = {
       "react-native",
       "kotlin",
       "typescript",
-      "html/css/tailwind",
-      "python",
+      "css/scss/tailwind",
+      "html",
       "figma",
     ],
-    exposedTo: ["nodejs", "java"],
+    exposedTo: ["next.js", "java"],
   },
   hobbies: [
     {

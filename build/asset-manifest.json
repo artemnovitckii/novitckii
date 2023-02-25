@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/novitckii/static/css/main.db3d1917.css",
-    "main.js": "/novitckii/static/js/main.12fb7e08.js",
+    "main.js": "/novitckii/static/js/main.8f96d4df.js",
     "static/media/mock3.png": "/novitckii/static/media/mock3.ba614a0581d672b5dbd2.png",
     "static/media/artem-novitckii-cv.pdf": "/novitckii/static/media/artem-novitckii-cv.b35926a5107a171ffd6e.pdf",
     "static/media/mock5.png": "/novitckii/static/media/mock5.c9b5f54e8517e13fc897.png",
@@ -11,10 +11,10 @@
     "static/media/mock4.png": "/novitckii/static/media/mock4.a435ac3eea5a2767db03.png",
     "index.html": "/novitckii/index.html",
     "main.db3d1917.css.map": "/novitckii/static/css/main.db3d1917.css.map",
-    "main.12fb7e08.js.map": "/novitckii/static/js/main.12fb7e08.js.map"
+    "main.8f96d4df.js.map": "/novitckii/static/js/main.8f96d4df.js.map"
   },
   "entrypoints": [
     "static/css/main.db3d1917.css",
-    "static/js/main.12fb7e08.js"
+    "static/js/main.8f96d4df.js"
   ]
 }
