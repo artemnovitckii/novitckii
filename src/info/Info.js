@@ -1,25 +1,9 @@
-import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
-import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
-
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
+import self from "../img/self.png";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
   firstName: "Artem",
@@ -41,8 +25,8 @@ export const info = {
     },
     {
       emoji: "💼",
-      text: `Software Engineer at EROAD`,
-      link: "https://www.eroad.co.nz/nz/",
+      text: `Frontend Engineer at Catch Design`,
+      link: "https://www.catchdesign.co.nz/",
     },
     {
       emoji: "💌",
@@ -73,19 +57,17 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hi 👋 I'm Artem. Bold and visionary UI/UX designer with a background in software engineering. Blends technical skills with a passion for art and psychology to create impactful and emotionally engaging user experiences. Committed to solving real-world problems with design and making a meaningful difference in the digital world. Bringing a unique perspective to each project and a drive to stand out and inspire users everywhere.",
+  bio: "Hi 👋 I’m Artem. Bold and visionary software engineer with a strong technical background. I blend my engineering expertise with a passion for innovation and problem-solving to develop impactful and reliable software solutions. Committed to addressing real-world challenges through technology and making a meaningful difference in the digital world. I bring a unique perspective to each project and a drive to excel and inspire teams everywhere.",
   skills: {
     proficientWith: [
       "javascript",
       "react",
+      "next.js",
       "react-native",
-      "kotlin",
       "typescript",
       "css/scss/tailwind",
-      "html",
-      "figma",
     ],
-    exposedTo: ["next.js", "java"],
+    exposedTo: ["php", "java", "kotlin"],
   },
   hobbies: [
     {
